@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { ThemeContext } from './ThemeContext';
+import { ThemeContext } from '../src/components/Temas';
 import './App.css'; // para estilos
 
 const ThemedApp = () => {
