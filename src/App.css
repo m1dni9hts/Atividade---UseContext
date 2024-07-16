@@ -1,10 +1,11 @@
-.app {
+.App {
   text-align: center;
   transition: background-color 0.3s, color 0.3s;
+  background-color: aquamarine;
 }
 
 .app.light {
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   color: black;
 }
 

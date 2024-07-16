@@ -1,13 +1,13 @@
-import React from 'react';
-import { ThemeProvider } from './components/Temas';
-import ThemedApp from './ThemedApp';
+import './App.css';
 
-const App = () => {
+function App() {
   return (
-    <ThemeProvider>
-      <ThemedApp />
-    </ThemeProvider>
+    <div className="App">
+      <header className="App-header">
+       
+      </header>
+    </div>
   );
-};
+}
 
 export default App;
