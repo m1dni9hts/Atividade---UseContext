@@ -1,14 +1,28 @@
-.light {
+/* Fonte Outfit */
+body, html {
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Temas */
+html.light {
   background-color: rgb(255, 255, 255);
   color: black; /* Adicionando contraste de cor */
 }
 
-.dark {
+html.dark {
   background-color: black;
   color: white; /* Adicionando contraste de cor */
 }
 
+/* Centralização do Conteúdo */
 .container {
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Faz com que o container ocupe a altura total da viewport */
   text-align: center;
 }

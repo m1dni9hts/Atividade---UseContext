@@ -1,4 +1,4 @@
-import './App.css'; 
+import './App.css'; // Apenas uma importação agora
 import { ThemeProvider } from './components/ThemeContext';
 import Theme from './components/Theme';
 
