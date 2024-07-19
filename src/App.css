@@ -1,4 +1,14 @@
-h1 {
-  background-color: brown;
-  font-family: Outfir;
+.light {
+  background-color: rgb(255, 255, 255);
+  color: black; /* Adicionando contraste de cor */
+}
+
+.dark {
+  background-color: black;
+  color: white; /* Adicionando contraste de cor */
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
 }

@@ -1,5 +1,4 @@
-import './App.css';
-import './components/CSS.css';
+import './App.css'; 
 import { ThemeProvider } from './components/ThemeContext';
 import Theme from './components/Theme';
 
@@ -7,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider>
-      <Theme/>
+        <Theme />
       </ThemeProvider>
     </div>
   );
