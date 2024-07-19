@@ -1,9 +1,13 @@
 import './App.css';
+import { ThemeProvider }from './components/ThemeContext';
+import { Theme } from './components/Theme';
 
 function App() {
   return (
     <div className="App">
-      <h1>HELLO WORLD</h1>
+      <ThemeProvider/>
+      <Theme/>
+      <ThemeProvider/>
     </div>
   );
 }
