@@ -3,7 +3,7 @@ import ThemeContext from "./ThemeContext";
 import '../App.css'; // Atualizar a importação do CSS
 
 const Theme = () => {
-    const { theme, toggleTheme } = useContext(ThemeContext);
+    const { toggleTheme } = useContext(ThemeContext);
    
     return (
         <div className="container">

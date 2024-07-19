@@ -3,12 +3,12 @@ html {
   font-family: 'Outfit', sans-serif;
 }
 
-html.light {
+.light {
   background-color: rgb(255, 255, 255);
   color: black; 
 }
 
-html.dark {
+.dark {
   background-color: black;
   color: white; 
 }
