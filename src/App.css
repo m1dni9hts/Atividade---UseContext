@@ -1,19 +1,4 @@
-.App {
-  text-align: center;
-  transition: background-color 0.3s, color 0.3s;
-  background-color: aquamarine;
-}
-
-.app.light {
-  background-color: rgb(0, 0, 0);
-  color: black;
-}
-
-.app.dark {
-  background-color: black;
-  color: white;
-}
-
-.app-header {
-  margin: 20px;
+h1 {
+  background-color: brown;
+  font-family: Outfir;
 }
