@@ -1,7 +1,7 @@
 # Lista de Ideias de Decoração
 
 ## Descrição
-Esta aplicação web permite alterar do Tema Claro para o Tema Escuro.
+Esta aplicação permite alterar do Tema Claro para o Tema Escuro.
 
 ## Tecnologias Utilizadas
 - React
